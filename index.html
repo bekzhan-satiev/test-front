@@ -35,7 +35,7 @@
 
           try {
             // Replace with your server URL
-            const res = await fetch("http://34.159.85.253:8080/test");
+            const res = await fetch("http://35.234.81.216:8080/test");
             if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
             const data = await res.json();
             this.response = JSON.stringify(data, null, 2);
